@@ -29,23 +29,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   contactForm.addEventListener("submit", async (e) => {
     e.preventDefault();
-    const response = await axios.post(
-      "https://ls-formulaire-backend.herokuapp.com/form",
-      serializeForm(contactForm)
-    );
 
-    console.log(response.data);
-    if (response.data.status === "success") {
-      alertWindow.classList.remove("alert-danger");
-      alertWindow.classList.add("alert-success");
-    } else {
-      alertWindow.classList.remove("alert-success");
-      alertWindow.classList.add("alert-danger");
+    alertWindow.classList.remove("alert-success");
+    alertWindow.classList.add("alert-danger");
+
+    try {
+      const response = await axios.post(
+        "https://ls-formulaire-backend.herokuapp.com/form",
+        serializeForm(contactForm)
+      );
+
+      if (response.data.status === "success") {
+        alertWindow.classList.remove("alert-danger");
+        alertWindow.classList.add("alert-success");
+      }
+      alertWindow.querySelector("#alert-content").textContent =
+        response.data.message;
+    } catch (error) {
+      alertWindow.querySelector("#alert-content").textContent =
+        "Une erreur est survenue lors de l'envoi de l'email, veuillez réessayer plus tard.";
     }
-    alertWindow.querySelector("#alert-content").textContent =
-      response.data.message;
+
     alertWindow.style.display = "inherit";
     modalCloseBtn.click();
+
     setTimeout(() => {
       alertWindow.style.display = "none";
     }, 4000);
