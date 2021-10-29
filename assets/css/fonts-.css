@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Trip Sans";
+  src: url("/assets/fonts/TripSans-Regular.eot");
+  src: url("/assets/fonts/TripSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/TripSans-Regular.woff2") format("woff2"),
+    url("/assets/fonts/TripSans-Regular.woff") format("woff"),
+    url("/assets/fonts/TripSans-Regular.ttf") format("truetype"),
+    url("/assets/fonts/TripSans-Regular.svg#TripSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/GoogleSans-Medium.eot");
+  src: url("/assets/fonts/GoogleSans-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/GoogleSans-Medium.woff2") format("woff2"),
+    url("/assets/fonts/GoogleSans-Medium.woff") format("woff"),
+    url("/assets/fonts/GoogleSans-Medium.ttf") format("truetype"),
+    url("/assets/fonts/GoogleSans-Medium.svg#GoogleSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

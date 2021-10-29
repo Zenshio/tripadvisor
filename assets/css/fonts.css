@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("/assets/fonts/BwModelica-Bold.eot");
+  src: url("/assets/fonts/BwModelica-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/BwModelica-Bold.woff2") format("woff2"),
+    url("/assets/fonts/BwModelica-Bold.woff") format("woff"),
+    url("/assets/fonts/BwModelica-Bold.ttf") format("truetype"),
+    url("/assets/fonts/BwModelica-Bold.svg#BwModelica-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("/assets/fonts/BwModelica-Regular.eot");
+  src: url("/assets/fonts/BwModelica-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/BwModelica-Regular.woff2") format("woff2"),
+    url("/assets/fonts/BwModelica-Regular.woff") format("woff"),
+    url("/assets/fonts/BwModelica-Regular.ttf") format("truetype"),
+    url("/assets/fonts/BwModelica-Regular.svg#BwModelica-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans VF";
+  src: url("/assets/fonts/TripSans-Regular.eot");
+  src: url("/assets/fonts/TripSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/TripSans-Regular.woff2") format("woff2"),
+    url("/assets/fonts/TripSans-Regular.woff") format("woff"),
+    url("/assets/fonts/TripSans-Regular.ttf") format("truetype"),
+    url("/assets/fonts/TripSans-Regular.svg#TripSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trip Sans VF";
+  src: url("/assets/fonts/TripSans-Medium.eot");
+  src: url("/assets/fonts/TripSans-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/TripSans-Medium.woff2") format("woff2"),
+    url("/assets/fonts/TripSans-Medium.woff") format("woff"),
+    url("/assets/fonts/TripSans-Medium.ttf") format("truetype"),
+    url("/assets/fonts/TripSans-Medium.svg#TripSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: "Trip Sans VF";
+    src: url("/assets/fonts/TripSans-VF.eot");
+    src: url("/assets/fonts/TripSans-VF.eot?#iefix") format("embedded-opentype"),
+      url("/assets/fonts/TripSans-VF.woff2") format("woff2"),
+      url("/assets/fonts/TripSans-VF.woff") format("woff"),
+      url("/assets/fonts/TripSans-VF.ttf") format("truetype"),
+      url("/assets/fonts/TripSans-VF.svg#TripSans-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  */
+
+@font-face {
+  font-family: "Bw Modelica";
+  src: url("/assets/fonts/BwModelica-Medium.eot");
+  src: url("/assets/fonts/BwModelica-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/BwModelica-Medium.woff2") format("woff2"),
+    url("/assets/fonts/BwModelica-Medium.woff") format("woff"),
+    url("/assets/fonts/BwModelica-Medium.ttf") format("truetype"),
+    url("/assets/fonts/BwModelica-Medium.svg#BwModelica-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
